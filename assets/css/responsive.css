@@ -1,0 +1,817 @@
+@media (min-width:0px) and (max-width:574px){
+    body{
+        width:100%;
+    }
+}
+
+@media (max-width:575px){
+    body{
+        width: 100%;
+    }
+/* navber part */
+.navbar {
+    padding: 10px 0;
+}
+.navbar .navbar-brand img {
+        padding-left:30px;
+        width: 100px;
+        height: 50px;
+}
+    .navbar button .fa-bars{
+        font-size: 30px;
+        color:#000;
+        padding-right: 30px;
+    }
+/* banner part*/
+#banner{
+    padding: 0px 0;
+}
+.banner_text h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 70px 0;
+} 
+.banner_text p{
+    text-align: center;
+    font-size: 15px;
+    padding: 25px 45px 30px;
+}
+.banner_img img{
+    margin: 50px 0 0 200px;
+    width: 200px;
+}
+
+.banner_text .btn {
+    padding: 6px 50px;
+    font-size: 18px;
+    margin-left: 180px;
+}
+/* sercive part */
+.service_text p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 0px;
+}
+.Portfolio_text p{
+    text-align: center;
+    padding: 20px 0px 36px;
+}
+/* portfulio part*/
+.Portfolio_text p{
+    text-align: justify;
+    font-size: 20px;
+}
+.mixitap{
+    padding: 0 0;
+}
+.mixitap ul li a{
+    font-size: 15px;
+    padding: 23px 3px;
+}
+.mixitap ul li a:hover {
+    color: #5956E8;
+}
+
+.mixitap ul li a::after {
+    content: '';
+    width: 0;
+    height: 5px;
+    position: absolute;
+    top: -23px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #5956E8;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.mixitap ul li:hover a::after {
+    width: 100%;
+    background-color: #5956E8;
+}
+.port_img .col-lg-3{
+    text-align: center;
+    margin: 5px 0;
+}
+/* Team part is Start*/
+.team_text p{
+    padding: 0 0;
+    text-align: justify;
+    font-size: 20px;
+}
+.team_members .col-lg-4{
+    text-align: center;
+    margin: 10px 0;
+}
+/* Team part is End*/
+
+/*  Customer part is Start*/
+.Customer_text h2{
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+}
+.Customer_text p{
+    padding: 0;
+    text-align: justify;
+    font-size: 20px;
+}
+#Customer .row .col-lg-4{
+    margin-bottom: 10px;
+}
+/*  Customer part is End */
+
+/* News part is Start */
+.News_text h2 {
+    padding: 0;
+}
+.News_text p{
+    padding: 0;
+    text-align: justify;
+    font-size: 20px;
+}
+.News_card{
+    margin: 10px auto;
+    text-align: center;
+}
+/* News part is End */
+/* footer part is start */
+#footer{
+    padding:10px 0;
+}
+.footer_items{
+    margin-top: 20px;
+}
+#footer p {
+    padding: 15px 0 0 0;
+    text-align: justify;
+}
+#footer .container .row .col-sm-6{
+    width: 50%;
+}
+#footer .container .row .footer_items{
+    width:32.99%
+}
+/* footer part is end */
+
+}
+/* -------------------------------------------------------------------------------- */
+@media(min-width:576px) and (max-width:767.98px){
+    body{
+        width: 100%;
+    }
+/* navber part is Start*/
+.navbar {
+    padding: 10px 0;
+}
+.navbar .navbar-brand img {
+        width: 70px;
+        height: 50px;
+    }
+    .navbar button .fa-bars{
+        font-size: 30px;
+        color:#000;
+    }
+/* navber part is End */
+
+/* banner part is Start */
+#banner{
+    padding: 20px 0;
+}
+#banner .row{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_text h1{
+    text-align: left;
+    font-size: 30px;
+}
+.banner_text p{
+    text-align: justify;
+    font-size: 15px;
+    padding: 25px 0px 30px;
+}
+.banner_img img{
+    margin: 50px 0 0 50px;
+    width: 280px;
+}
+
+.banner_text .btn {
+    padding: 8px 18px;
+    font-size: 18px;
+}
+/* banner part is end */
+
+/* sercive part is Start*/
+.service_text h2 {
+    font-size: 30px;
+}
+.service_text p{
+    text-align: justify;
+    font-size: 15px;
+    padding: 0px;
+}
+.Portfolio_text p{
+    text-align: center;
+    padding: 20px 0px 36px;
+}
+/* sercive part is end */
+
+/* portfulio part is Start */
+.Portfolio_text h2 {
+    font-size: 30px;
+}
+.Portfolio_text p{
+    text-align: justify;
+    font-size: 15px;
+}
+.mixitap{
+    padding: 0 0;
+}
+.mixitap ul {
+    padding: 20px 5px;
+}
+.mixitap ul li a{
+    font-size: 12px;
+    padding: 23px 15px;
+}
+.port_img .port_img_1 img{
+    width: 260px;
+}
+.port_img .port_img_2 img{
+    width: 260px;
+}
+.port_img .col-lg-3{
+    text-align: center;
+    margin: 5px 0;
+}
+/* portfulio part is end */
+
+/* team part is start*/
+#team {
+    padding: 0 0;
+}
+
+.team_text h2 {
+    font-size: 30px;
+}
+
+.team_text p {
+    text-align: justify;
+    font-size: 15px;
+    padding: 0 0;
+}
+.team_members .col-lg-4{
+    text-align: center;
+    margin: 10px 0;
+}
+/* team part is end */
+
+/*  Customer part is start */
+#Customer {
+    padding: 50px 0;
+}
+.Customer_text h2 {
+    font-size: 30px;
+    padding: 0;
+}
+.Customer_text p {
+    padding:0px;
+    font-size: 16px;
+    text-align: justify;
+}
+#Customer .row .col-lg-4{
+    margin-bottom: 10px;
+}
+/*  Customer part is end */
+
+/* News part is start */
+#News {
+    padding: 0px 0;
+}
+.News_text h2 {
+    font-size: 30px;
+}
+.News_text p{
+    text-align: justify;
+    font-size: 15px;
+    padding: 0;
+}
+.News_card{
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* News part is end */
+
+/* footer part is start */
+#footer{
+    padding:20px 0;
+}
+.footer_items{
+    margin-top: 20px;
+}
+#footer p {
+    padding: 15px 0 0 0;
+    text-align: justify;
+}
+/* footer part is end */
+}
+/* -------------------------------------------------------------------------------------- */
+@media(min-width:768px) and (max-width:991.98px){
+body{
+    width: 100%;
+}
+/* navber part is Start*/
+.navbar {
+    padding: 10px 0;
+}
+.navbar .navbar-brand img {
+        width: 80px;
+        height: 60px;
+        text-align: right;
+    }
+    .navbar button .fa-bars{
+        font-size: 30px;
+        color:#000;
+    }
+/* navber part is End */
+
+/* banner part is Start */
+#banner{
+    padding: 20px 0;
+}
+#banner .row{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_text h1{
+    text-align: left;
+    font-size: 35px;
+}
+.banner_text p{
+    text-align:justify;
+    font-size: 20px;
+    padding: 25px 0px 30px;
+}
+.banner_img img{
+    margin:50px 0 0 90px;
+    width: 300px;
+}
+
+.banner_text .btn {
+    padding: 8px 18px;
+    font-size: 18px;
+}
+/* banner part is end */
+
+/* sercive part is Start*/
+.service_text h2 {
+    font-size: 35px;
+}
+.service_text p{
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+}
+/* sercive part is end */
+
+/* portfulio part is Start */
+.Portfolio_text h2 {
+    font-size: 35px;
+}
+.Portfolio_text p{
+    text-align: center;
+    font-size: 20px;
+    padding:20px 0;
+}
+.mixitap{
+    padding: 0 0;
+}
+.mixitap ul {
+    padding: 20px 5px;
+}
+.mixitap ul li a{
+    font-size: 18px;
+    padding: 23px 15px;
+}
+.port_img .port_img_1 img{
+    margin-bottom: 10px;
+    width: 220px;
+}
+.port_img .port_img_2 img{
+    margin-bottom: 20px;
+    width: 220px;
+}
+.port_img .col-lg-3{
+    text-align: center;
+    margin: 5px 0;
+}
+/* portfulio part is end */
+
+/* team part is start*/
+#team {
+    padding: 0 0;
+}
+
+.team_text h2 {
+    font-size: 35px;
+}
+
+.team_text p {
+    text-align: center;
+    font-size: 20px;
+    padding: 0 0;
+}
+.team_members .col-lg-4 img{
+    width: 330px;
+}
+.team_members .col-lg-4{
+    text-align: left;
+    margin: 10px 0;
+}
+/* team part is end */
+
+/*  Customer part is start */
+#Customer {
+    padding: 50px 0;
+}
+.Customer_text h2 {
+    font-size: 35px;
+    padding: 0;
+    text-align: center;
+}
+.Customer_text p {
+    padding:0px;
+    font-size: 20px;
+    text-align: center;
+}
+#Customer .row .col-lg-4{
+    margin-bottom: 10px;
+}
+/*  Customer part is end */
+
+/* News part is start */
+#News {
+    padding: 0px 0;
+}
+.News_text h2 {
+    font-size: 35px;
+}
+.News_text p{
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+}
+.News_card{
+    width:360px;
+}
+/* News part is end */
+
+/* footer part is start */
+#footer{
+    padding:20px 0;
+}
+.footer_items{
+    margin-top: 20px;
+}
+#footer p {
+    padding: 15px 0 0 0;
+    text-align: justify;
+}
+/* footer part is end */
+}
+
+/* --------------------------------------------------------------------------------------- */
+@media(min-width:992px) and (max-width:1199.98px){
+    body{
+        width: 100%;
+    }
+    /* navber part is Start*/
+.navbar {
+    padding: 10px 0;
+}
+.navbar .navbar-brand img {
+        width: 80px;
+        height: 60px;
+        text-align: right;
+    }
+    .navbar button .fa-bars{
+        font-size: 30px;
+        color:#000;
+    }
+/* navber part is End */
+
+/* banner part is Start */
+#banner{
+    padding: 20px 0;
+}
+#banner .row{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_text h1{
+    text-align: left;
+    font-size: 35px;
+}
+.banner_text p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 25px 0px 30px;
+}
+.banner_img img{
+    margin:50px 0 0 130px;
+    width: 280px;
+}
+
+.banner_text .btn {
+    padding: 8px 18px;
+    font-size: 18px;
+}
+/* banner part is end */
+
+/* sercive part is Start*/
+.service_text h2 {
+    font-size: 40px;
+}
+.service_text p{
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+}
+.Portfolio_text p{
+    text-align: center;
+    padding: 20px 0px 36px;
+}
+
+/* sercive part is end */
+
+/* portfulio part is Start */
+.Portfolio_text h2 {
+    font-size: 40px;
+}
+.Portfolio_text p{
+    text-align: center;
+    font-size: 20px;
+}
+.mixitap{
+    padding: 0 0;
+}
+.mixitap ul {
+    padding: 20px 5px;
+}
+.mixitap ul li a{
+    font-size: 20px;
+    padding: 23px 15px;
+}
+.port_img .port_img_1 img{
+    width: 230px;
+}
+.port_img .port_img_2 img{
+    width: 230px;
+}
+.port_img .col-lg-3{
+    text-align: center;
+    margin: 5px 0;
+}
+/* portfulio part is end */
+
+/* team part is start*/
+#team {
+    padding: 0 0;
+}
+
+.team_text h2 {
+    font-size: 40px;
+}
+
+.team_text p {
+    text-align: center;
+    font-size: 20px;
+    padding: 0 0;
+}
+.team_members .col-lg-4 img{
+    width: 300px;
+}
+.team_members .col-lg-4{
+    text-align: center;
+    margin: 10px 0;
+}
+/* team part is end */
+
+/*  Customer part is start */
+#Customer {
+    padding: 50px 0;
+}
+.Customer_text h2 {
+    font-size: 40px;
+    padding: 0 ;
+    text-align: center;
+}
+.Customer_text p {
+    padding:0px 100px;
+    font-size: 20px;
+    text-align: center;
+}
+#Customer .row .col-lg-4{
+    margin-bottom: 10px;
+}
+/*  Customer part is end */
+
+/* News part is start */
+#News {
+    padding: 0px 0;
+}
+.News_text h2 {
+    font-size: 40px;
+}
+.News_text p{
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+}
+#News .News_card{
+    margin: 0 40px;
+}
+/* News part is end */
+
+/* footer part is start */
+#footer{
+    padding:20px 0;
+}
+.footer_items{
+    margin-top: 20px;
+}
+#footer p {
+    padding: 15px 0 0 0;
+    text-align: justify;
+}
+/* footer part is end */
+}
+/* --------------------------------------------------------------------------------------- */
+@media(min-width:1200px) and (max-width:1399.98px){
+    body{
+        width: 100%;
+    }
+    /* navber part is Start*/
+.navbar {
+    padding: 10px 0;
+}
+.navbar .navbar-brand img {
+        width: 80px;
+        height: 60px;
+        text-align: right;
+    }
+    .navbar button .fa-bars{
+        font-size: 30px;
+        color:#000;
+    }
+/* navber part is End */
+
+/* banner part is Start */
+#banner{
+    padding: 20px 0;
+}
+#banner .row{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_text h1{
+    text-align: left;
+    font-size: 40px;
+}
+.banner_text p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 25px 0px 30px;
+}
+.banner_img img{
+    margin:60px 0 0 200px;
+    width: 300px;
+}
+
+.banner_text .btn {
+    padding: 8px 18px;
+    font-size: 18px;
+}
+/* banner part is end */
+
+/* sercive part is Start*/
+.service_text h2 {
+    font-size: 40px;
+}
+.service_text p{
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+}
+.Portfolio_text p{
+    text-align: center;
+    padding: 20px 0px 36px;
+}
+
+/* sercive part is end */
+
+/* portfulio part is Start */
+.Portfolio_text h2 {
+    font-size: 40px;
+}
+.Portfolio_text p{
+    text-align: center;
+    font-size: 20px;
+}
+.mixitap{
+    padding: 0 0;
+}
+.mixitap ul {
+    padding: 20px 5px;
+}
+.mixitap ul li a{
+    font-size: 20px;
+    padding: 23px 15px;
+}
+.port_img .port_img_1 img{
+    width: 250px;
+}
+.port_img .port_img_2 img{
+    width: 250px;
+}
+.port_img .col-lg-3{
+    text-align: center;
+    margin: 5px 0;
+}
+/* portfulio part is end */
+
+/* team part is start*/
+#team {
+    padding: 0 0;
+}
+
+.team_text h2 {
+    font-size: 40px;
+}
+
+.team_text p {
+    text-align: center;
+    font-size: 20px;
+    padding: 0 0;
+}
+.team_members .col-lg-4 img{
+    width: 350px;
+}
+.team_members .col-lg-4{
+    text-align: center;
+    margin: 10px 0;
+}
+/* team part is end */
+
+/*  Customer part is start */
+#Customer {
+    padding: 50px 0;
+}
+.Customer_text h2 {
+    font-size: 40px;
+    padding: 0 ;
+    text-align: center;
+}
+.Customer_text p {
+    padding:0px 100px;
+    font-size: 20px;
+    text-align: center;
+}
+#Customer .row .col-lg-4{
+    margin-bottom: 10px;
+}
+/*  Customer part is end */
+
+/* News part is start */
+#News {
+    padding: 0px 0;
+}
+.News_text h2 {
+    font-size: 40px;
+}
+.News_text p{
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+}
+/* News part is end */
+
+/* footer part is start */
+#footer{
+    padding:20px 0;
+}
+.footer_items{
+    margin-top: 20px;
+}
+#footer p {
+    padding: 15px 0 0 0;
+    text-align: justify;
+}
+/* footer part is end */
+}
